@@ -1,0 +1,36 @@
+body,
+html,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Microsoft YaHei' !important;
+  min-width: 1366px;
+}
+.el-menu--vertical {
+  left: 64px !important;
+}
+.el-calendar-table .el-calendar-day {
+  box-sizing: border-box;
+  padding: 6px;
+  height: 35px;
+  text-align: center;
+}
+
+.el-breadcrumb {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+/* 解决el-cascader高度不适配 */
+.el-cascader-menu {
+  height: 250px;
+}
+.el-tag {
+  margin-right: 15px;
+}
+.input-new-tag {
+  width: 120px;
+}
+.ql-editor {
+  min-height: 300px !important;
+}
